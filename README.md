@@ -157,7 +157,7 @@ Here are some ideas to get you started:
 <br>
 
 > [!WARNING]  
-> Todo el contenido de este repositorio, incluyendo este README, es propiedad de DaniCaDev y está protegido por derechos de autor. Su reproducción, distribución o modificación sin autorización previa está estrictamente prohibida. Para conocer los términos completos, consulta el archivo - [LICENCE].
+> Todo el contenido de este repositorio, incluyendo este README, es propiedad de DaniCaDev y está protegido por derechos de autor. Su reproducción, distribución o modificación sin autorización previa está estrictamente prohibida. Para conocer los términos completos, consulta el archivo [License](https://github.com/DaniCaDev/DaniCaDev/blob/main/LICENSE).
 
 Credit: [DaniCaDev](https://github.com/DaniCaDev)
 [Abdul Khalid](https://github.com/0xabdulkhalid) (En cosas de su plantilla y imágenes)
