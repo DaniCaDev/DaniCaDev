@@ -155,7 +155,9 @@ Here are some ideas to get you started:
 ---
 
 <br>
->[!WARNING]
+
+> [!WARNING]  
+> Critical content demanding immediate user attention due to potential risks.
 
 Credit: [DaniCaDev](https://github.com/DaniCaDev)
         [Abdul Khalid](https://github.com/0xabdulkhalid) (En cosas de su plantilla y imágenes)
