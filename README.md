@@ -16,9 +16,9 @@ Here are some ideas to get you started:
 
 <br>
 
-<p align="center">
-  <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=F70069&width=435&lines=Hola!+Soy+DaniCaDev;Estudiante+de+ingenier%C3%ADa+inform%C3%A1tica;Programador+de+videojuegos+(FiveM);Amante+de+la+tecnolog%C3%ADa;Principiante+en+p%C3%A1ginas+web;Amante+del+a+Ingenier%C3%ADa+del+Software" alt="Typing SVG" /></a>
-</p>
+<div align="center">
+  <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=F70069&width=435&lines=Hola!+Soy+DaniCaDev;Estudiante+de+ingenier%C3%ADa+inform%C3%A1tica;Programador+de+videojuegos+(FiveM);Amante+de+la+tecnolog%C3%ADa;Principiante+en+p%C3%A1ginas+web;Amante+de+la+Ingenier%C3%ADa+del+Software" alt="Typing SVG" /></a>
+</div>
 
 <br>
 
@@ -159,12 +159,14 @@ Here are some ideas to get you started:
 <br>
 <div align='center'>
 
-  <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=F70069&width=435&lines=Si+puedes+so%C3%B1arlo%2Cpuedes+programarlo;Programa+hoy%2C+conquista+ma%C3%B1ana;Tu+c%C3%B3digo+puede+cambiar+vidas;Sue%C3%B1a+en+grande%2C+codifica+m%C3%A1s+fuerte;Convierte+ideas+en+realidad;El+futuro+se+escribe+con+tu+c%C3%B3digo" alt="Typing SVG" /></a>
+  <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=F70069&width=435&lines=Si+puedes+so%C3%B1arlo%2C+puedes+programarlo;Programa+hoy%2C+conquista+ma%C3%B1ana;Tu+c%C3%B3digo+puede+cambiar+vidas;Sue%C3%B1a+en+grande%2C+codifica+m%C3%A1s+fuerte;Convierte+ideas+en+realidad;El+futuro+se+escribe+con+tu+c%C3%B3digo" alt="Typing SVG" /></a>
 
 </div>
 <br>
 <br>
+<br>
 ---
+
 <br>
 
 > [!WARNING]  
