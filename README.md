@@ -29,7 +29,7 @@ Here are some ideas to get you started:
     - Amante de la tecnología<br>
     - Principiante en páginas web<br>
     <div>
-      <a href="https://www.linkedin.com/in/daniel-alejandro-%C3%A1lvarez-casablanca-b223b9240/" target="_blank">Mi LinkedIn</a>
+      <a href="https://www.linkedin.com/in/daniel-alejandro-%C3%A1lvarez-casablanca-b223b9240/" target="_blank"> - Mi LinkedIn</a>
     </div>
   </div>
   <div>
@@ -105,7 +105,7 @@ Here are some ideas to get you started:
 
 ## <img src="https://user-images.githubusercontent.com/5713670/87202985-820dcb80-c2b6-11ea-9f56-7ec461c497c3.gif" width="35"><b> Contributions! </b>
 
-<img src="https://github.com/DaniCaDev/DaniCaDev/blob/output/github-contribution-grid-snake.gif" alt="Snake gif" />
+  ![snake gif](https://github.com/DaniCaDev/DaniCaDev/blob/output/github-contribution-grid-snake-dark.svg)
 
 <br>
   <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
