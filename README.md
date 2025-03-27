@@ -15,12 +15,12 @@ Here are some ideas to get you started:
 <h1 align="center"><b>Hi , I'm DaniCaDev </b><img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="35"></h1>
 
 <p align="center">
-  <a href="https://github.com/DenverCoder1/readme-typing-svg"><img src="https://readme-typing-svg.herokuapp.com?font=Time+New+Roman&color=cyan&size=25&center=true&vCenter=true&width=600&height=100&lines=Hola!+Soy+DaniCaDev;Estudiante+de+ingeniería+informática;Programador+de+videojuegos+%28FiveM%29;Amante+de+la+tecnología;Principiante+en+páginas+web"></a>
+  <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=F70069&width=435&lines=Hola!+Soy+DaniCaDev;Estudiante+de+ingenier%C3%ADa+inform%C3%A1tica;Programador+de+videojuegos+(FiveM);Amante+de+la+tecnolog%C3%ADa;Principiante+en+p%C3%A1ginas+web;Amante+del+a+Ingenier%C3%ADa+del+Software" alt="Typing SVG" /></a>
 </p>
 
 <br>
 
-## <picture><img src = "https://www.flaticon.com/free-animated-icon/profile_8121295?related_id=8121295" width = 50px></picture> **About me**
+## <picture><img src = "https://owlbuddy.com/wp-content/uploads/2024/06/support.gif" width = 50px></picture> **About me**
 
 <img src="https://i.gifer.com/OBK7.gif" align="right" height="100" alt="GIF">
 
@@ -30,10 +30,7 @@ Here are some ideas to get you started:
 - Principiante en páginas web  
 - [Mi LinkedIn](https://www.linkedin.com/in/daniel-alejandro-%C3%A1lvarez-casablanca-b223b9240/)
 
-
-
 <br>
-
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif"><br><br>
 
@@ -85,7 +82,6 @@ Here are some ideas to get you started:
 ## <img src="https://media.giphy.com/media/iY8CRBdQXODJSCERIr/giphy.gif" width="35"><b> Github Stats </b>
 
 <br>
-
   <div align="center">
     <img src="https://github-readme-stats.vercel.app/api?username=DaniCaDev&hide_title=false&hide_rank=false&show_icons=true&include_all_commits=true&count_private=true&disable_animations=false&theme=codeSTACKr&locale=en&hide_border=false&order=1" height="150" alt="stats graph"  />
     <img src="https://github-readme-stats.vercel.app/api/top-langs?username=DaniCaDev&locale=en&hide_title=false&layout=compact&card_width=320&langs_count=5&theme=codeSTACKr&hide_border=false&order=2" height="150" alt="languages graph"  />
@@ -119,9 +115,6 @@ Here are some ideas to get you started:
 
 <br>
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
-<br>
-
-<br>
 <br>
 
 ## <img src="https://media1.giphy.com/media/23D8NR89IoZUC9jgsO/giphy.gif?cid=6c09b952zh18xil71r32ydqxi6vv6yq5m8mqxk541511lbva&ep=v1_internal_gif_by_id&rid=giphy.gif&ct=s" width ="30"><b> Let's Connect..!</b>
@@ -160,8 +153,6 @@ Here are some ideas to get you started:
 <br>
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 <br>
-<br>
-<br>
 
 <div align='center'>
 
@@ -170,11 +161,7 @@ Here are some ideas to get you started:
 </div>
 <br>
 <br>
-<br>
-<br>
-
 ---
-
 <br>
 
 > [!WARNING]  
@@ -182,4 +169,4 @@ Here are some ideas to get you started:
 
 Credit: [DaniCaDev](https://github.com/DaniCaDev)
 
-Last Edited on: 23/03/2025
+Last Edited on: 27/03/2025
