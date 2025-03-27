@@ -22,8 +22,7 @@ Here are some ideas to get you started:
 
 ## <picture><img src = "https://imgur.com/dq0Lbfv" width = 50px></picture> **About me**
 
-<br>
-  <div style="display: flex; justify-content: space-between; align-items: center;">
+<div style="display: flex; justify-content: space-between; align-items: center;">
   <div>
     - Estudiante de ingeniería informática<br>
     - Programador de videojuegos (FiveM)<br>
@@ -36,10 +35,10 @@ Here are some ideas to get you started:
   <div>
     <img height="200" src="https://i.gifer.com/OBK7.gif" />
   </div>
-  </div>
+</div>
 
 
-<br><br>
+
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif"><br><br>
 
