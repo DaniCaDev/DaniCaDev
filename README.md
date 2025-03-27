@@ -22,22 +22,10 @@ Here are some ideas to get you started:
 
 ## <picture><img src = "https://imgur.com/dq0Lbfv" width = 50px></picture> **About me**
 
-<div style="display: flex; justify-content: space-between; align-items: center;">
-  <div>
-    - Estudiante de ingeniería informática<br>
-    - Programador de videojuegos (FiveM)<br>
-    - Amante de la tecnología<br>
-    - Principiante en páginas web<br>
-    <div>
-      <a href="https://www.linkedin.com/in/daniel-alejandro-%C3%A1lvarez-casablanca-b223b9240/" target="_blank"> - Mi LinkedIn</a>
-    </div>
-  </div>
-  <div align="right">
-    <img height="100" src="https://i.gifer.com/OBK7.gif" />
-  </div>
-</div>
+- Estudiante de ingeniería informática<br>- Programador de videojuegos (FiveM)<br>- Amante de la tecnología<br>- Principiante en páginas web<br>- [Mi LinkedIn](https://www.linkedin.com/in/daniel-alejandro-%C3%A1lvarez-casablanca-b223b9240/) | <img height="100" src="https://i.gifer.com/OBK7.gif" /> 
 
 
+<br>
 
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif"><br><br>
