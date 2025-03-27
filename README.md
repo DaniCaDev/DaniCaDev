@@ -20,7 +20,7 @@ Here are some ideas to get you started:
 
 <br>
 
-## <picture><img src = "https://imgur.com/dq0Lbfv" width = 50px></picture> **About me**
+## <picture><img src = "https://www.flaticon.com/free-animated-icon/profile_8121295?related_id=8121295" width = 50px></picture> **About me**
 
 <img src="https://i.gifer.com/OBK7.gif" align="right" height="100" alt="GIF">
 
@@ -51,22 +51,27 @@ Here are some ideas to get you started:
   ![JavaScript](https://img.shields.io/badge/JavaScript%20-%23F7DF1E.svg?style=for-the-badge&logo=javascript&logoColor=black)
   ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white)
 
-- **Front-End Development**:
+<br>
 
+- **Front-End Development**:
   ![HTML5](https://img.shields.io/badge/HTML5%20-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
   ![CSS3](https://img.shields.io/badge/CSS%20-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
 
-- **Softwares and Tools**:
+<br>
 
+- **Softwares and Tools**:
   ![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)
   ![Visual Studio Code](https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white)
   ![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
   ![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)
 
-- **Extras**:
+<br>
 
+- **Extras**:
   ![Terminal](https://img.shields.io/badge/Terminal-%23054020?style=for-the-badge&logo=gnu-bash&logoColor=white)
   ![Markdown](https://img.shields.io/badge/markdown-%23000000.svg?style=for-the-badge&logo=markdown&logoColor=white)
+
+<br>
 
 </p>
 
@@ -160,7 +165,7 @@ Here are some ideas to get you started:
 
 <div align='center'>
 
-## <b>Si puedes soñarlo, puedes programarlo</b>
+  <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=F70069&width=435&lines=Si+puedes+so%C3%B1arlo%2Cpuedes+programarlo;Programa+hoy%2C+conquista+ma%C3%B1ana;Tu+c%C3%B3digo+puede+cambiar+vidas;Sue%C3%B1a+en+grande%2C+codifica+m%C3%A1s+fuerte;Convierte+ideas+en+realidad;El+futuro+se+escribe+con+tu+c%C3%B3digo" alt="Typing SVG" /></a>
 
 </div>
 <br>
