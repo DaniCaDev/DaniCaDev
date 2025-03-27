@@ -22,12 +22,9 @@ Here are some ideas to get you started:
 
 ## <picture><img src = "https://imgur.com/dq0Lbfv" width = 50px></picture> **About me**
 
-## About me
-
-<!-- Tabla sin borde -->
-<table border="0">
+<table border="0" width="100%" cellspacing="0" cellpadding="0">
   <tr>
-    <!-- Primera columna: tu texto -->
+    <!-- Columna del texto -->
     <td valign="top">
       - Estudiante de ingeniería informática<br>
       - Programador de videojuegos (FiveM)<br>
@@ -35,12 +32,12 @@ Here are some ideas to get you started:
       - Principiante en páginas web<br>
       - <a href="https://www.linkedin.com/in/daniel-alejandro-%C3%A1lvarez-casablanca-b223b9240/" target="_blank">Mi LinkedIn</a>
     </td>
-    <td width="50">&nbsp;</td>
     <td valign="top" align="right">
       <img src="https://i.gifer.com/OBK7.gif" height="100" alt="GIF">
     </td>
   </tr>
 </table>
+
 
 <br>
 
