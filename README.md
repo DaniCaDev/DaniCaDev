@@ -22,7 +22,26 @@ Here are some ideas to get you started:
 
 ## <picture><img src = "https://imgur.com/dq0Lbfv" width = 50px></picture> **About me**
 
-- Estudiante de ingeniería informática<br>- Programador de videojuegos (FiveM)<br>- Amante de la tecnología<br>- Principiante en páginas web<br>- [Mi LinkedIn](https://www.linkedin.com/in/daniel-alejandro-%C3%A1lvarez-casablanca-b223b9240/) | <img height="100" src="https://i.gifer.com/OBK7.gif" /> 
+## About me
+
+<table>
+  <tr>
+    <!-- Primera columna: tu texto -->
+    <td valign="top">
+      - Estudiante de ingeniería informática<br>
+      - Programador de videojuegos (FiveM)<br>
+      - Amante de la tecnología<br>
+      - Principiante en páginas web<br>
+      - <a href="https://www.linkedin.com/in/daniel-alejandro-%C3%A1lvarez-casablanca-b223b9240/" target="_blank"> - Mi LinkedIn</a>
+    </td>
+
+    <!-- Segunda columna: tu GIF -->
+    <td valign="top">
+      <img src="https://i.gifer.com/OBK7.gif" height="100">
+    </td>
+  </tr>
+</table>
+
 
 
 <br>
