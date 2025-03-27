@@ -32,10 +32,8 @@ Here are some ideas to get you started:
       - Programador de videojuegos (FiveM)<br>
       - Amante de la tecnología<br>
       - Principiante en páginas web<br>
-      - <a href="https://www.linkedin.com/in/daniel-alejandro-%C3%A1lvarez-casablanca-b223b9240/" target="_blank"> - Mi LinkedIn</a>
+      - <a href="https://www.linkedin.com/in/daniel-alejandro-%C3%A1lvarez-casablanca-b223b9240/" target="_blank">Mi LinkedIn</a>
     </td>
-
-    <!-- Segunda columna: tu GIF -->
     <td valign="top">
       <img src="https://i.gifer.com/OBK7.gif" height="100">
     </td>
