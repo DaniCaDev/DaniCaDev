@@ -29,7 +29,9 @@ Here are some ideas to get you started:
       - Programador de videojuegos (FiveM)<br>
       - Amante de la tecnología<br>
       - Principiante en páginas web<br>
-      - [Mi LinkedIn](https://www.linkedin.com/in/daniel-alejandro-%C3%A1lvarez-casablanca-b223b9240/)
+      <div>
+        <a href="https://www.linkedin.com/in/daniel-alejandro-%C3%A1lvarez-casablanca-b223b9240/" target="_blank">Mi LinkedIn</a>
+      </div>
     </div>
     <div>
       <img height="200" src="https://i.gifer.com/OBK7.gif" />
@@ -102,7 +104,7 @@ Here are some ideas to get you started:
 
 ## <img src="https://user-images.githubusercontent.com/5713670/87202985-820dcb80-c2b6-11ea-9f56-7ec461c497c3.gif" width="35"><b> Contributions! </b>
 
-<img src="https://raw.githubusercontent.com/DaniCaDev/DaniCaDev/output/snake.svg" alt="Snake animation" />
+<img src="https://github.com/DaniCaDev/DaniCaDev/blob/output/github-contribution-grid-snake.gif" alt="Snake gif" />
 
 <br>
   <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
