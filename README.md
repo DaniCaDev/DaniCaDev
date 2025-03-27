@@ -33,7 +33,7 @@ Here are some ideas to get you started:
     </div>
   </div>
   <div>
-    <img height="200" src="https://i.gifer.com/OBK7.gif" />
+    <img height="100" src="https://i.gifer.com/OBK7.gif" />
   </div>
 </div>
 
