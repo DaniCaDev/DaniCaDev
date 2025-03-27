@@ -96,6 +96,20 @@ Here are some ideas to get you started:
 </div>
 
 <br>
+
+## <img src="https://cdn.dribbble.com/userupload/21518263/file/original-8953c5cfc4bf26578308d60adb6069e6.gif" width="35"><b> Recently Played </b>
+
+<br>
+
+<br>
+  <div align="center">
+    <a href="https://open.spotify.com/user/71wccwn6shyx2yg161ht4eegq">
+      <img src="https://spotify-recently-played-readme.vercel.app/api?user=71wccwn6shyx2yg161ht4eegq&count=5" alt="Spotify recently played"  />
+    </a>
+  </div>
+<br>
+
+<br>
 <br>
 <br>
 
