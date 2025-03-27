@@ -86,14 +86,15 @@ Here are some ideas to get you started:
 
 <br>
 
-<div align="center">
+  <div align="center">
+    <img src="https://github-readme-stats.vercel.app/api?username=DaniCaDev&hide_title=false&hide_rank=false&show_icons=true&include_all_commits=true&count_private=true&disable_animations=false&theme=codeSTACKr&locale=en&hide_border=false&order=1" height="150" alt="stats graph"  />
+    <img src="https://github-readme-stats.vercel.app/api/top-langs?username=DaniCaDev&locale=en&hide_title=false&layout=compact&card_width=320&langs_count=5&theme=codeSTACKr&hide_border=false&order=2" height="150" alt="languages graph"  />
+  </div>
 
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=DaniCaDev&hide_title=false&hide_rank=false&show_icons=true&include_all_commits=true&count_private=true&disable_animations=false&theme=codeSTACKr&locale=en&hide_border=false&order=1" height="150" alt="stats graph"  />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=DaniCaDev&locale=en&hide_title=false&layout=compact&card_width=320&langs_count=5&theme=codeSTACKr&hide_border=false&order=2" height="150" alt="languages graph"  />
-</div>
-</div>
+<br>
 
+<br>
+  <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 <br>
 
 ## <img src="https://cdn.dribbble.com/userupload/21518263/file/original-8953c5cfc4bf26578308d60adb6069e6.gif" width="35"><b> Recently Played </b>
@@ -106,6 +107,10 @@ Here are some ideas to get you started:
       <img src="https://spotify-recently-played-readme.vercel.app/api?user=71wccwn6shyx2yg161ht4eegq&count=5" alt="Spotify recently played"  />
   </a>
   </div>
+<br>
+
+<br>
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 <br>
 
 <br>
