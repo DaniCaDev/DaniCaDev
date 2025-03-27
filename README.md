@@ -51,14 +51,10 @@ Here are some ideas to get you started:
   ![JavaScript](https://img.shields.io/badge/JavaScript%20-%23F7DF1E.svg?style=for-the-badge&logo=javascript&logoColor=black)
   ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white)
 
-<br>
-
 - **Front-End Development**:
 
   ![HTML5](https://img.shields.io/badge/HTML5%20-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
   ![CSS3](https://img.shields.io/badge/CSS%20-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
-
-<br>
 
 - **Softwares and Tools**:
 
@@ -66,8 +62,6 @@ Here are some ideas to get you started:
   ![Visual Studio Code](https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white)
   ![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
   ![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)
-
-<br>
 
 - **Extras**:
 
@@ -125,9 +119,10 @@ Here are some ideas to get you started:
 <br>
 <br>
 
-## <b> Let's Connect..!</b><img src="https://media1.giphy.com/media/23D8NR89IoZUC9jgsO/giphy.gif?cid=6c09b952zh18xil71r32ydqxi6vv6yq5m8mqxk541511lbva&ep=v1_internal_gif_by_id&rid=giphy.gif&ct=s" width ="30">
+## <img src="https://media1.giphy.com/media/23D8NR89IoZUC9jgsO/giphy.gif?cid=6c09b952zh18xil71r32ydqxi6vv6yq5m8mqxk541511lbva&ep=v1_internal_gif_by_id&rid=giphy.gif&ct=s" width ="30"><b> Let's Connect..!</b>
 
 <br>
+
 <div align='left'>
 
 <ul>
