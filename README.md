@@ -20,9 +20,7 @@ Here are some ideas to get you started:
 
 <br>
 
-## <picture><img src = "https://github.com/0xAbdulKhalid/0xAbdulKhalid/raw/main/assets/mdImages/about_me.gif" width = 50px></picture> **About me**
-
-<picture> <img align="right" src="https://github.com/0xAbdulKhalid/0xAbdulKhalid/raw/main/assets/mdImages/Right_Side.gif" width = 250px></picture>
+## <picture><img src = "https://imgur.com/dq0Lbfv" width = 50px></picture> **About me**
 
 <br>
 
@@ -31,6 +29,10 @@ Here are some ideas to get you started:
 - Amante de la tecnología
 - Principiante en páginas web
 - [Mi LinkedIn](https://www.linkedin.com/in/daniel-alejandro-%C3%A1lvarez-casablanca-b223b9240/)
+
+<div align="right">
+  <img height="200" src="https://i.gifer.com/OBK7.gif"  />
+</div>
 
 <br><br>
 
@@ -112,12 +114,6 @@ Here are some ideas to get you started:
 <br>
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 <br>
-
-<br>
-<br>
-<br>
-
----
 
 <br>
 <br>
