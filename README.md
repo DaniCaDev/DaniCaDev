@@ -24,7 +24,8 @@ Here are some ideas to get you started:
 
 ## About me
 
-<table>
+<!-- Tabla sin borde -->
+<table border="0">
   <tr>
     <!-- Primera columna: tu texto -->
     <td valign="top">
@@ -34,13 +35,12 @@ Here are some ideas to get you started:
       - Principiante en páginas web<br>
       - <a href="https://www.linkedin.com/in/daniel-alejandro-%C3%A1lvarez-casablanca-b223b9240/" target="_blank">Mi LinkedIn</a>
     </td>
-    <td valign="top">
-      <img src="https://i.gifer.com/OBK7.gif" height="100">
+    <td width="50">&nbsp;</td>
+    <td valign="top" align="right">
+      <img src="https://i.gifer.com/OBK7.gif" height="100" alt="GIF">
     </td>
   </tr>
 </table>
-
-
 
 <br>
 
@@ -191,6 +191,5 @@ Here are some ideas to get you started:
 > Todo el contenido de este repositorio, incluyendo este README, es propiedad de DaniCaDev y está protegido por derechos de autor. Su reproducción, distribución o modificación sin autorización previa está estrictamente prohibida. Para conocer los términos completos, consulta el archivo [License](https://github.com/DaniCaDev/DaniCaDev/blob/main/LICENSE).
 
 Credit: [DaniCaDev](https://github.com/DaniCaDev)
-[Abdul Khalid](https://github.com/0xabdulkhalid) (En cosas de su plantilla y imágenes)
 
 Last Edited on: 23/03/2025
