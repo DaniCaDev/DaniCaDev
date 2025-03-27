@@ -88,11 +88,10 @@ Here are some ideas to get you started:
 
 <div align="center">
 
-<a href="https://github.com/DaniCaDev">
-  <img src="https://github-readme-stats.vercel.app/api?username=DaniCaDev&include_all_commits=true&count_private=true&show_icons=true&line_height=20&title_color=7A7ADB&icon_color=2234AE&text_color=D3D3D3&bg_color=0,000000,130F40" width="450"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=DaniCaDev&show_icons=true&locale=en&layout=compact&line_height=20&title_color=7A7ADB&icon_color=2234AE&text_color=D3D3D3&bg_color=0,000000,130F40" width="375"  alt="DaniCaDev"/>
-
-</a>
+<div align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=DaniCaDev&hide_title=false&hide_rank=false&show_icons=true&include_all_commits=true&count_private=true&disable_animations=false&theme=codeSTACKr&locale=en&hide_border=false&order=1" height="150" alt="stats graph"  />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=DaniCaDev&locale=en&hide_title=false&layout=compact&card_width=320&langs_count=5&theme=codeSTACKr&hide_border=false&order=2" height="150" alt="languages graph"  />
+</div>
 </div>
 
 <br>
@@ -105,7 +104,7 @@ Here are some ideas to get you started:
   <div align="center">
     <a href="https://open.spotify.com/user/71wccwn6shyx2yg161ht4eegq">
       <img src="https://spotify-recently-played-readme.vercel.app/api?user=71wccwn6shyx2yg161ht4eegq&count=5" alt="Spotify recently played"  />
-    </a>
+  </a>
   </div>
 <br>
 
