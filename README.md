@@ -23,7 +23,7 @@ Here are some ideas to get you started:
 ## <picture><img src = "https://imgur.com/dq0Lbfv" width = 50px></picture> **About me**
 
 <br>
-  <div style="display: flex; align-items: center; justify-content: space-between;">
+  <div style="display: flex; align-items: rigth; justify-content: space-between;">
     <div>
       - Estudiante de ingeniería informática<br>
       - Programador de videojuegos (FiveM)<br>
@@ -81,7 +81,7 @@ Here are some ideas to get you started:
 <br>
 <br>
 
----
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif"><br><br>
 
 <br>
 
@@ -95,6 +95,14 @@ Here are some ideas to get you started:
   </div>
 
 <br>
+
+<br>
+  <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
+<br>
+
+## <img src="https://user-images.githubusercontent.com/5713670/87202985-820dcb80-c2b6-11ea-9f56-7ec461c497c3.gif" width="35"><b> Contributions! </b>
+
+<img src="https://raw.githubusercontent.com/DaniCaDev/DaniCaDev/output/snake.svg" alt="Snake animation" />
 
 <br>
   <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
@@ -119,7 +127,7 @@ Here are some ideas to get you started:
 <br>
 <br>
 
-## <b> Let's Connect..!</b><img src="https://github.com/0xAbdulKhalid/0xAbdulKhalid/raw/main/assets/mdImages/handshake.gif" width ="80">
+## <b> Let's Connect..!</b><img src="https://media1.giphy.com/media/23D8NR89IoZUC9jgsO/giphy.gif?cid=6c09b952zh18xil71r32ydqxi6vv6yq5m8mqxk541511lbva&ep=v1_internal_gif_by_id&rid=giphy.gif&ct=s" width ="30">
 
 <br>
 <div align='left'>
