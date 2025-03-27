@@ -32,7 +32,7 @@ Here are some ideas to get you started:
       <a href="https://www.linkedin.com/in/daniel-alejandro-%C3%A1lvarez-casablanca-b223b9240/" target="_blank"> - Mi LinkedIn</a>
     </div>
   </div>
-  <div>
+  <div align="right">
     <img height="100" src="https://i.gifer.com/OBK7.gif" />
   </div>
 </div>
