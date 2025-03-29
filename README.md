@@ -114,7 +114,7 @@ Here are some ideas to get you started:
   <div align="center">
     <a href="https://open.spotify.com/user/71wccwn6shyx2yg161ht4eegq">
       <img src="https://spotify-recently-played-readme.vercel.app/api?user=71wccwn6shyx2yg161ht4eegq&count=5" alt="Spotify recently played"  />
-  </a>
+    </a>
   </div>
 <br>
 
@@ -161,9 +161,9 @@ Here are some ideas to get you started:
 
 <br>
 <div align='center'>
-
-  <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=F70069&width=435&lines=Si+puedes+so%C3%B1arlo%2C+puedes+programarlo;Programa+hoy%2C+conquista+ma%C3%B1ana;Tu+c%C3%B3digo+puede+cambiar+vidas;Sue%C3%B1a+en+grande%2C+codifica+m%C3%A1s+fuerte;Convierte+ideas+en+realidad;El+futuro+se+escribe+con+tu+c%C3%B3digo" alt="Typing SVG" /></a>
-
+  <a href="https://git.io/typing-svg">
+    <img src="https://readme-typing-svg.demolab.com?  font=Fira+Code&pause=1000&color=F70069&width=435&lines=Si+puedes+so%C3%B1arlo%2C+puedes+programarlo;Programa+hoy%2C+conquista+ma%C3%B1ana;Tu+c%C3%B3digo+puede+cambiar+vidas;Sue%C3%B1a+en+grande%2C+codifica+m%C3%A1s+fuerte;Convierte+ideas+en+realidad;El+futuro+se+escribe+con+tu+c%C3%B3digo" alt="Typing SVG" />
+  </a>
 </div>
 <br>
 <br>
