@@ -169,7 +169,6 @@ Here are some ideas to get you started:
 <br>
   <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif"><br><br>
 <br>
-<br>
 
 > [!WARNING]  
 > Todo el contenido de este repositorio, incluyendo este README, es propiedad de DaniCaDev y está protegido por derechos de autor. Su reproducción, distribución o modificación sin autorización previa está estrictamente prohibida. Para conocer los términos completos, consulta el archivo [License](https://github.com/DaniCaDev/DaniCaDev/blob/main/LICENSE).
