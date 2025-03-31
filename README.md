@@ -162,10 +162,9 @@ Here are some ideas to get you started:
 <br>
 <div align='center'>
   <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?  font=Fira+Code&pause=1000&color=F70069&width=435&lines=Si+puedes+so%C3%B1arlo%2C+puedes+programarlo;Programa+hoy%2C+conquista+ma%C3%B1ana;Tu+c%C3%B3digo+puede+cambiar+vidas;Sue%C3%B1a+en+grande%2C+codifica+m%C3%A1s+fuerte;Convierte+ideas+en+realidad;El+futuro+se+escribe+con+tu+c%C3%B3digo" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&center=true&pause=1000&color=F70069&width=435&lines=Si+puedes+so%C3%B1arlo%2C+puedes+programarlo;Programa+hoy%2C+conquista+ma%C3%B1ana;Tu+c%C3%B3digo+puede+cambiar+vidas;Sue%C3%B1a+en+grande%2C+codifica+m%C3%A1s+fuerte;Convierte+ideas+en+realidad;El+futuro+se+escribe+con+tu+c%C3%B3digo" alt="Typing SVG" />
   </a>
 </div>
-<br>
 <br>
   <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif"><br><br>
 <br>
