@@ -88,11 +88,12 @@ Here are some ideas to get you started:
 
 <br>
   <div align="center">
-    ![](https://github-readme-stats.vercel.app/api?username=Danicadev&theme=dark&hide_border=false&include_all_commits=false&count_private=false)<br/>
-    ![](https://nirzak-streak-stats.vercel.app/?user=Danicadev&theme=dark&hide_border=false)<br/>
-    ![](https://github-readme-stats.vercel.app/api/top-langs/?username=Danicadev&theme=dark&hide_border=false&include_all_commits=false&count_private=false&layout=compact)
-  </div>
-
+    <img src="https://github-readme-stats.vercel.app/api?username=DaniCaDev&theme=dark&hide_border=false&include_all_commits=false&count_private=false" />
+    <br><br>
+    <img src="https://nirzak-streak-stats.vercel.app/?user=DaniCaDev&theme=dark&hide_border=false" />
+    <br><br>
+    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=DaniCaDev&theme=dark&hide_border=false&include_all_commits=false&count_private=false&layout=compact" />
+    </div>
 <br>
 
 <br>
