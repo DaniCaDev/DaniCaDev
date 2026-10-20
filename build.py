@@ -237,12 +237,22 @@ INICIO_Y = 98             # debajo del título "INVENTARIO"
 TEXTO_X = 108             # inicio del texto, a la derecha de la ficha
 
 
+# Rango que acompaña a cada nivel de dominio (1-5)
+RANGOS = {1: "NOVATO", 2: "APRENDIZ", 3: "INTERMEDIO", 4: "AVANZADO", 5: "MAESTRO"}
+
+
 def barra_de_nivel(nivel: int, color: str) -> str:
-    """'NV' y 5 bloques bajo el nombre; se rellenan tantos como el nivel."""
+    """'NV', 5 bloques (se rellenan tantos como el nivel) y el rango."""
+    nivel = max(1, min(5, nivel))
     partes = [f'<text class="pixel" x="{TEXTO_X}" y="90" font-size="8" fill="#8f8bd6">NV</text>']
     for i in range(5):
         relleno = color if i < nivel else "#2a2860"
         partes.append(f'<rect x="{TEXTO_X + 26 + i * 14}" y="82" width="11" height="8" fill="{relleno}"/>')
+    # Rango en el color de la habilidad; si es muy oscuro, en lila para que se lea
+    color_rango = color if color_que_contrasta(color) == "#0b0a24" else "#b9b6ff"
+    partes.append(
+        f'<text class="pixel" x="{TEXTO_X + 106}" y="90" font-size="8" fill="{color_rango}">{RANGOS[nivel]}</text>'
+    )
     return "".join(partes)
 
 

@@ -1,4 +1,18 @@
 [
-  { "nombre": "C++", "tipo": "LENGUAJE",      "color": "#00599c", "icono": "cplusplus" },
-  { "nombre": "SQL", "tipo": "BASE DE DATOS", "color": "#e38c00", "icono": "basedatos" }
+  { "nombre": "C++", "tipo": "LENGUAJE",      "color": "#00599c", "icono": "cplusplus", "nivel": 4 },
+  { "nombre": "SQL", "tipo": "BASE DE DATOS", "color": "#e38c00", "icono": "basedatos", "nivel": 2},
+  { "nombre": "JavaScript", "tipo": "LENGUAJE", "color": "#f39935", "icono": "javascript", "nivel": 2 },
+  { "nombre": "HTML", "tipo": "LENGUAJE", "color": "#e34c26", "icono": "html5", "nivel": 4},
+  { "nombre": "CSS", "tipo": "LENGUAJE", "color": "#2965f1", "icono": "css3", "nivel": 4},
+  { "nombre": "Java", "tipo": "LENGUAJE", "color": "#007396", "icono": "java", "nivel": 3 },
+  { "nombre": "Ruby", "tipo": "LENGUAJE", "color": "#cc342d", "icono": "ruby", "nivel": 1 },
+  { "nombre": "React", "tipo": "FRAMEWORK", "color": "#61dafb", "icono": "react", "nivel": 2 },
+  { "nombre": "Node.js", "tipo": "LENGUAJE", "color": "#339933", "icono": "nodejs", "nivel": 2 },
+  { "nombre": "Express", "tipo": "FRAMEWORK", "color": "#404040", "icono": "express", "nivel": 1 },
+  { "nombre": "MongoDB", "tipo": "BASE DE DATOS", "color": "#47a248", "icono": "mongodb", "nivel": 3 },
+  { "nombre": "Git", "tipo": "VERSIONAMIENTO", "color": "#f05032", "icono": "git", "nivel": 4 },
+  { "nombre": "GitHub", "tipo": "VERSIONAMIENTO", "color": "#181717", "icono": "github", "nivel": 4 },
+  { "nombre": "Docker", "tipo": "CONTAINER", "color": "#2496ed", "icono": "docker", "nivel": 4 },
+  { "nombre": "Linux", "tipo": "SO", "color": "#000000", "icono": "linux", "nivel": 4 },
+  { "nombre": "bash", "tipo": "LENGUAJE", "color": "#4eaa25", "icono": "bash", "nivel": 4 }
 ]
