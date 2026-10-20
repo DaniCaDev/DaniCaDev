@@ -1,0 +1,47 @@
+# Actualiza el panel "PARTIDA GUARDADA" una vez al día: descarga las
+# contribuciones, regenera los SVG y hace commit solo si algo cambió.
+
+name: Estadisticas
+
+on:
+  schedule:
+    - cron: "17 5 * * *"   # diario, 05:17 UTC
+  workflow_dispatch:        # ejecución manual desde la pestaña Actions
+  push:
+    paths:                  # también al cambiar datos o diseño
+      - "habilidades.json"
+      - "build.py"
+      - "src/**"
+      - "plantillas/**"
+
+permissions:
+  contents: write           # necesario para el commit
+
+jobs:
+  actualizar:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Descargar el repositorio
+        uses: actions/checkout@v4
+
+      - name: Instalar Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Descargar contribuciones
+        env:
+          # GITHUB_TOKEN solo ve contribuciones públicas. Con un token
+          # personal guardado como secreto STATS_TOKEN cuenta también las privadas.
+          GITHUB_TOKEN: ${{ secrets.STATS_TOKEN || secrets.GITHUB_TOKEN }}
+        run: python estadisticas.py ${{ github.repository_owner }}
+
+      - name: Generar los SVG
+        run: python build.py
+
+      - name: Guardar los cambios
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets datos
+          git diff --staged --quiet || (git commit -m "Actualizar estadisticas" && git push)
