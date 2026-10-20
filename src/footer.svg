@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="840" height="160" viewBox="0 0 840 160" role="img" aria-labelledby="t">
+  <title id="t">Pulsa start</title>
+
+  <!-- Pie del perfil: "PULSA START" parpadeando -->
+
+  <style>
+    @font-face {
+      font-family: 'PixelFont';
+      src: url(data:font/woff2;base64,/*FUENTE*/) format('woff2');
+    }
+    .pixel { font-family: 'PixelFont', monospace; }
+
+    @keyframes parpadeo {
+      0%, 100% { opacity: 1; }
+      50%      { opacity: 0; }
+    }
+    .start { animation: parpadeo 1.2s steps(1) infinite; }
+  </style>
+
+  <defs>
+    <clipPath id="pantalla">
+      <rect x="8" y="8" width="824" height="144" rx="20"/>
+    </clipPath>
+    <pattern id="scanlines" width="4" height="4" patternUnits="userSpaceOnUse">
+      <rect y="3" width="4" height="1" fill="#000000" opacity="0.25"/>
+    </pattern>
+  </defs>
+
+  <rect x="4" y="4" width="832" height="152" rx="24" fill="#0b0a24" stroke="#1c1a44" stroke-width="8"/>
+
+  <g clip-path="url(#pantalla)">
+    <text class="pixel start" x="420" y="78" font-size="22" fill="#ffe066" text-anchor="middle">PULSA START</text>
+    <text class="pixel" x="420" y="120" font-size="10" fill="#8f8bd6" text-anchor="middle">© 2026 DANI · TODOS LOS NIVELES DESBLOQUEADOS</text>
+    <rect x="0" y="0" width="840" height="160" fill="url(#scanlines)"/>
+  </g>
+</svg>

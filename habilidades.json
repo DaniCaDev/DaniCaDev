@@ -1,0 +1,4 @@
+[
+  { "nombre": "C++", "tipo": "LENGUAJE",      "color": "#00599c", "icono": "cplusplus" },
+  { "nombre": "SQL", "tipo": "BASE DE DATOS", "color": "#e38c00", "icono": "basedatos" }
+]

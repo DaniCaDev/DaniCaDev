@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="440" height="64" viewBox="0 0 440 64" role="img" aria-labelledby="t">
+  <title id="t">Proyectos</title>
+
+  <!-- Opción normal del menú: mismo marco que el botón principal, flecha apagada -->
+
+  <style>
+    @font-face {
+      font-family: 'PixelFont';
+      src: url(data:font/woff2;base64,/*FUENTE*/) format('woff2');
+    }
+    .pixel { font-family: 'PixelFont', monospace; }
+  </style>
+
+  <rect width="440" height="64" fill="#ff4fa3"/>
+  <rect x="4" y="4" width="432" height="56" fill="#0b0a24"/>
+  <rect x="10" y="10" width="420" height="44" fill="none" stroke="#e6e6ff" stroke-width="3"/>
+
+  <g transform="translate(32 24) scale(2)">
+    <path d="M0 0h2v1h2v1h2v1h1v2H6v1H4v1H2v1H0z" fill="#3a3780"/>
+  </g>
+
+  <text class="pixel" x="66" y="40" font-size="16" fill="#e6e6ff">PROYECTOS</text>
+</svg>

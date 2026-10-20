@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="840" height="{{ALTO}}" viewBox="0 0 840 {{ALTO}}" role="img" aria-labelledby="t">
+  <title id="t">{{RESUMEN}}</title>
+
+  <!--
+    Plantilla del panel de estadísticas ("PARTIDA GUARDADA").
+    build.py la rellena a partir de datos/estadisticas.json:
+      {{TARJETAS}}    los 4 marcadores
+      {{MESES}}       meses sobre la cuadrícula
+      {{CUADRICULA}}  un cuadrado por día del último año
+      {{LEYENDA}}     escala de colores
+      {{PIE}}         fecha de actualización o aviso de datos de ejemplo
+  -->
+
+  <style>
+    @font-face {
+      font-family: 'PixelFont';
+      src: url(data:font/woff2;base64,/*FUENTE*/) format('woff2');
+    }
+    .pixel { font-family: 'PixelFont', monospace; }
+
+    /* La cuadrícula se revela como una barra de carga, una semana por paso */
+    @keyframes cargar {
+      from { transform: scaleX(0); }
+      to   { transform: scaleX(1); }
+    }
+    .revelar {
+      transform-box: fill-box;
+      transform-origin: left;
+      animation: cargar 1.8s steps({{COLUMNAS}}) forwards;
+    }
+
+    /* El día de hoy parpadea */
+    @keyframes parpadeo {
+      0%, 100% { opacity: 1; }
+      50%      { opacity: 0.2; }
+    }
+    .hoy { animation: parpadeo 1s steps(1) infinite; }
+  </style>
+
+  <defs>
+    <clipPath id="pantalla">
+      <rect x="8" y="8" width="824" height="{{ALTO_CLIP}}" rx="20"/>
+    </clipPath>
+    <clipPath id="carga">
+      <rect class="revelar" x="0" y="0" width="840" height="{{ALTO}}"/>
+    </clipPath>
+    <pattern id="scanlines" width="4" height="4" patternUnits="userSpaceOnUse">
+      <rect y="3" width="4" height="1" fill="#000000" opacity="0.25"/>
+    </pattern>
+  </defs>
+
+  <rect x="4" y="4" width="832" height="{{ALTO_MARCO}}" rx="24" fill="#0b0a24" stroke="#1c1a44" stroke-width="8"/>
+
+  <g clip-path="url(#pantalla)">
+    <text class="pixel" x="36" y="60" font-size="18" fill="#ffe066">PARTIDA GUARDADA</text>
+    <text class="pixel" x="804" y="60" font-size="12" fill="#7df9ff" text-anchor="end">{{ANIO}}</text>
+    <rect x="36" y="74" width="768" height="4" fill="#1c1a44"/>
+
+{{TARJETAS}}
+
+{{MESES}}
+
+    <g clip-path="url(#carga)">
+{{CUADRICULA}}
+    </g>
+
+{{LEYENDA}}
+{{PIE}}
+
+    <rect x="0" y="0" width="840" height="{{ALTO}}" fill="url(#scanlines)"/>
+  </g>
+</svg>

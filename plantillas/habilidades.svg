@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="840" height="{{ALTO}}" viewBox="0 0 840 {{ALTO}}" role="img" aria-labelledby="t">
+  <title id="t">Habilidades: {{LISTA}}</title>
+
+  <!--
+    Plantilla del inventario de habilidades. build.py la rellena a partir
+    de habilidades.json:
+      {{ALTO}}, {{ALTO_MARCO}}, {{ALTO_CLIP}}  alturas según el número de filas
+      {{CONTADOR}}                             casillas ocupadas / totales
+      {{LISTA}}                                nombres, para lectores de pantalla
+      {{CASILLAS}}                             una casilla por habilidad
+      /*FUENTE*/                               fuente pixel en base64
+  -->
+
+  <style>
+    @font-face {
+      font-family: 'PixelFont';
+      src: url(data:font/woff2;base64,/*FUENTE*/) format('woff2');
+    }
+    .pixel { font-family: 'PixelFont', monospace; }
+
+    /* Brillo de la gema (habilidades sin icono) */
+    @keyframes brillo {
+      0%, 100% { opacity: 1; }
+      50%      { opacity: 0.55; }
+    }
+    .gema { animation: brillo 2s steps(2) infinite; }
+
+    /* Destello: cruza la ficha en el primer 35% y luego espera fuera */
+    @keyframes destello {
+      0%        { transform: translateX(0); }
+      35%, 100% { transform: translateX(130px); }
+    }
+    .destello { animation: destello 3.5s linear infinite; }
+  </style>
+
+  <defs>
+    <clipPath id="pantalla">
+      <rect x="8" y="8" width="824" height="{{ALTO_CLIP}}" rx="20"/>
+    </clipPath>
+    <pattern id="scanlines" width="4" height="4" patternUnits="userSpaceOnUse">
+      <rect y="3" width="4" height="1" fill="#000000" opacity="0.25"/>
+    </pattern>
+  </defs>
+
+  <rect x="4" y="4" width="832" height="{{ALTO_MARCO}}" rx="24" fill="#0b0a24" stroke="#1c1a44" stroke-width="8"/>
+
+  <g clip-path="url(#pantalla)">
+    <text class="pixel" x="36" y="60" font-size="18" fill="#ffe066">INVENTARIO</text>
+    <text class="pixel" x="804" y="60" font-size="12" fill="#7df9ff" text-anchor="end">{{CONTADOR}}</text>
+    <rect x="36" y="74" width="768" height="4" fill="#1c1a44"/>
+
+{{CASILLAS}}
+
+    <rect x="0" y="0" width="840" height="{{ALTO}}" fill="url(#scanlines)"/>
+  </g>
+</svg>

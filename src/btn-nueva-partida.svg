@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="440" height="96" viewBox="0 0 440 96" role="img" aria-labelledby="t">
+  <title id="t">Nueva partida: panikoteca.com</title>
+
+  <!--
+    Botón principal del menú (opción seleccionada).
+    Los enlaces dentro de un SVG no funcionan en GitHub, así que el
+    <a href> lo pongo en el README, alrededor de la imagen.
+  -->
+
+  <style>
+    @font-face {
+      font-family: 'PixelFont';
+      src: url(data:font/woff2;base64,/*FUENTE*/) format('woff2');
+    }
+    .pixel { font-family: 'PixelFont', monospace; }
+
+    /* Flecha parpadeando sin fundido (steps(1)) */
+    @keyframes parpadeo {
+      0%, 100% { opacity: 1; }
+      50%      { opacity: 0; }
+    }
+    .flecha { animation: parpadeo 1s steps(1) infinite; }
+  </style>
+
+  <!-- Borde doble pixel: tres rectángulos encajados -->
+  <rect width="440" height="96" fill="#ff4fa3"/>
+  <rect x="4" y="4" width="432" height="88" fill="#0b0a24"/>
+  <rect x="10" y="10" width="420" height="76" fill="none" stroke="#e6e6ff" stroke-width="3"/>
+
+  <!-- Flecha de selección: sprite de 7x8 ampliado x2 -->
+  <g class="flecha" transform="translate(32 32) scale(2)">
+    <path d="M0 0h2v1h2v1h2v1h1v2H6v1H4v1H2v1H0z" fill="#ffe066"/>
+  </g>
+
+  <text class="pixel" x="66" y="48" font-size="16" fill="#ffe066">NUEVA PARTIDA</text>
+  <text class="pixel" x="66" y="70" font-size="10" fill="#7df9ff">panikoteca.com</text>
+</svg>

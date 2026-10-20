@@ -1,0 +1,94 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="840" height="460" viewBox="0 0 840 460" role="img" aria-labelledby="titulo">
+  <title id="titulo">DANI · Edición Ingeniería Informática</title>
+
+  <!--
+    Cabecera del perfil: pantalla de inicio de un juego arcade.
+
+    GitHub muestra este SVG como <img>, así que no puede cargar recursos
+    externos: la fuente va incrustada en base64 (la mete build.py) y los
+    enlaces van fuera, en el README.
+  -->
+
+  <style>
+    /* Fuente pixel: build.py sustituye la marca por la fuente en base64 */
+    @font-face {
+      font-family: 'PixelFont';
+      src: url(data:font/woff2;base64,/*FUENTE*/) format('woff2');
+    }
+    .pixel { font-family: 'PixelFont', monospace; }
+
+    /* Estrellas: steps(2) para que el parpadeo vaya a saltos, como en consola antigua */
+    @keyframes brillo {
+      0%, 100% { opacity: 1; }
+      50%      { opacity: 0.15; }
+    }
+    .estrella { animation: brillo 2.4s steps(2) infinite; }
+    .e2 { animation-delay: 0.6s; }
+    .e3 { animation-delay: 1.2s; }
+    .e4 { animation-delay: 1.8s; }
+
+    /* Título flotando */
+    @keyframes flotar {
+      0%, 100% { transform: translateY(0); }
+      50%      { transform: translateY(-6px); }
+    }
+    .titulo { animation: flotar 1.6s steps(2) infinite; }
+  </style>
+
+  <defs>
+    <!-- Recorte para que nada se salga de la pantalla redondeada -->
+    <clipPath id="pantalla">
+      <rect x="8" y="8" width="824" height="444" rx="20"/>
+    </clipPath>
+    <!-- Scanlines: una línea oscura cada 4px (efecto tele CRT) -->
+    <pattern id="scanlines" width="4" height="4" patternUnits="userSpaceOnUse">
+      <rect y="3" width="4" height="1" fill="#000000" opacity="0.25"/>
+    </pattern>
+  </defs>
+
+  <!-- Marco de la pantalla -->
+  <rect x="4" y="4" width="832" height="452" rx="24" fill="#0b0a24" stroke="#1c1a44" stroke-width="8"/>
+
+  <g clip-path="url(#pantalla)">
+
+    <!-- Estrellas de 4x4 con retrasos distintos -->
+    <rect class="estrella"    x="96"  y="150" width="4" height="4" fill="#7df9ff"/>
+    <rect class="estrella e2" x="168" y="236" width="4" height="4" fill="#ffe066"/>
+    <rect class="estrella e3" x="72"  y="330" width="4" height="4" fill="#ff4fa3"/>
+    <rect class="estrella e4" x="196" y="400" width="4" height="4" fill="#7df9ff"/>
+    <rect class="estrella e3" x="660" y="142" width="4" height="4" fill="#ffe066"/>
+    <rect class="estrella"    x="742" y="232" width="4" height="4" fill="#ff4fa3"/>
+    <rect class="estrella e2" x="690" y="338" width="4" height="4" fill="#7df9ff"/>
+    <rect class="estrella e4" x="768" y="408" width="4" height="4" fill="#ffe066"/>
+
+    <!-- HUD -->
+    <text class="pixel" x="48" y="64" font-size="14" fill="#ff4fa3">1UP</text>
+    <text class="pixel" x="48" y="90" font-size="14" fill="#e6e6ff">DANI</text>
+
+    <text class="pixel" x="420" y="64" font-size="14" fill="#ff4fa3" text-anchor="middle">HI-SCORE</text>
+    <text class="pixel" x="420" y="90" font-size="14" fill="#e6e6ff" text-anchor="middle">2026</text>
+
+    <!-- Corazones: sprite de 7x6 ampliado x3 -->
+    <g transform="translate(714 52) scale(3)"><path d="M1 0h2v1h1V0h2v1h1v2H6v1H5v1H4v1H3V5H2V4H1V3H0V1h1z" fill="#ff4f6d"/></g>
+    <g transform="translate(742 52) scale(3)"><path d="M1 0h2v1h1V0h2v1h1v2H6v1H5v1H4v1H3V5H2V4H1V3H0V1h1z" fill="#ff4f6d"/></g>
+    <g transform="translate(770 52) scale(3)"><path d="M1 0h2v1h1V0h2v1h1v2H6v1H5v1H4v1H3V5H2V4H1V3H0V1h1z" fill="#ff4f6d"/></g>
+
+    <!-- "PRESENTA" -->
+    <rect x="316" y="162" width="36" height="4" fill="#7df9ff"/>
+    <text class="pixel" x="420" y="170" font-size="14" fill="#7df9ff" text-anchor="middle">PRESENTA</text>
+    <rect x="488" y="162" width="36" height="4" fill="#7df9ff"/>
+
+    <!-- Título: tres capas desplazadas para la sombra (la última queda encima) -->
+    <g class="titulo">
+      <text class="pixel" x="434" y="314" font-size="112" fill="#2a1f6b" text-anchor="middle">DANI</text>
+      <text class="pixel" x="427" y="307" font-size="112" fill="#ff4fa3" text-anchor="middle">DANI</text>
+      <text class="pixel" x="420" y="300" font-size="112" fill="#ffe066" text-anchor="middle">DANI</text>
+    </g>
+
+    <!-- Sin tildes: esta fuente dibuja la Ó y la Í mayúsculas como minúsculas -->
+    <text class="pixel" x="420" y="384" font-size="14" fill="#b9b6ff" text-anchor="middle">EDICION INGENIERIA INFORMATICA</text>
+
+    <!-- Scanlines al final para que queden por encima de todo -->
+    <rect x="0" y="0" width="840" height="460" fill="url(#scanlines)"/>
+  </g>
+</svg>
