@@ -1,5 +1,6 @@
-# Actualiza el panel "PARTIDA GUARDADA" una vez al día: descarga las
-# contribuciones, regenera los SVG y hace commit solo si algo cambió.
+# Actualiza el perfil una vez al día: descarga las contribuciones,
+# regenera los SVG y el bloque de redes del README, y hace commit
+# solo si algo cambió.
 
 name: Estadisticas
 
@@ -10,6 +11,8 @@ on:
   push:
     paths:                  # también al cambiar datos o diseño
       - "habilidades.json"
+      - "redes.json"
+      - "README.md"
       - "build.py"
       - "src/**"
       - "plantillas/**"
@@ -17,15 +20,21 @@ on:
 permissions:
   contents: write           # necesario para el commit
 
+# Una sola ejecución a la vez: si coinciden dos (un push y la diaria),
+# la segunda espera a que termine la primera en vez de pisarla.
+concurrency:
+  group: estadisticas
+  cancel-in-progress: false
+
 jobs:
   actualizar:
     runs-on: ubuntu-latest
     steps:
       - name: Descargar el repositorio
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
 
       - name: Instalar Python
-        uses: actions/setup-python@v5
+        uses: actions/setup-python@v6
         with:
           python-version: "3.12"
 
@@ -43,5 +52,13 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add assets datos
-          git diff --staged --quiet || (git commit -m "Actualizar estadisticas" && git push)
+          git add assets datos README.md
+          if git diff --staged --quiet; then
+            echo "Sin cambios"
+            exit 0
+          fi
+          git commit -m "Actualizar estadisticas"
+          # Si entretanto ha llegado otro commit a main, me coloco encima antes
+          # de subir. En caso de conflicto ganan los SVG recién generados.
+          git pull --rebase -X theirs origin main
+          git push

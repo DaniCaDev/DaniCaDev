@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="260" height="76" viewBox="0 0 260 76" role="img" aria-labelledby="t">
+  <title id="t">{{NOMBRE}}: {{MOSTRAR}}</title>
+
+  <!--
+    Plantilla de botón de red social. build.py genera uno por cada entrada
+    de redes.json. Cada botón es un SVG aparte porque cada uno necesita su
+    propio <a href> en el README.
+  -->
+
+  <style>
+    @font-face {
+      font-family: 'PixelFont';
+      src: url(data:font/woff2;base64,/*FUENTE*/) format('woff2');
+    }
+    .pixel { font-family: 'PixelFont', monospace; }
+
+    @keyframes brillo {
+      0%, 100% { opacity: 1; }
+      50%      { opacity: 0.55; }
+    }
+    .gema { animation: brillo 2s steps(2) infinite; }
+
+    @keyframes destello {
+      0%        { transform: translateX(0); }
+      35%, 100% { transform: translateX(130px); }
+    }
+    .destello { animation: destello 3.5s linear infinite; }
+  </style>
+
+  <!-- Base desplazada 6px: da el efecto de tecla en relieve -->
+  <rect x="0" y="6" width="260" height="70" fill="{{COLOR}}" opacity="0.45"/>
+  <rect x="1.5" y="1.5" width="257" height="67" fill="#14123a" stroke="{{COLOR}}" stroke-width="3"/>
+
+  {{FICHA}}
+
+  <text class="pixel" x="74" y="31" font-size="{{TAMANO_NOMBRE}}" fill="#ffffff">{{NOMBRE}}</text>
+  <text class="pixel" x="74" y="51" font-size="{{TAMANO_MOSTRAR}}" fill="#8f8bd6">{{MOSTRAR}}</text>
+
+  <!-- Flecha de "entrar" -->
+  <g transform="translate(236 28) scale(2)"><path d="M0 0h2v1h2v1h2v1h1v2H6v1H4v1H2v1H0z" fill="{{COLOR}}"/></g>
+</svg>

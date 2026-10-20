@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="840" height="100" viewBox="0 0 840 100" role="img" aria-labelledby="t">
+  <title id="t">{{TITULO}}</title>
+
+  <!--
+    Plantilla de título de sección: cinta pixel con colas en V.
+    build.py la rellena con {{TITULO}} y {{NIVEL}} (ver TITULOS en build.py).
+    Fondo transparente: funciona con el tema claro y el oscuro de GitHub.
+  -->
+
+  <style>
+    @font-face {
+      font-family: 'PixelFont';
+      src: url(data:font/woff2;base64,/*FUENTE*/) format('woff2');
+    }
+    .pixel { font-family: 'PixelFont', monospace; }
+
+    @keyframes brillo {
+      0%, 100% { opacity: 1; }
+      50%      { opacity: 0.2; }
+    }
+    .chispa { animation: brillo 1.6s steps(2) infinite; }
+    .c2 { animation-delay: 0.8s; }
+
+    /* La cinta flota un poco, a saltos */
+    @keyframes flotar {
+      0%, 100% { transform: translateY(0); }
+      50%      { transform: translateY(-3px); }
+    }
+    .cinta { animation: flotar 2s steps(2) infinite; }
+  </style>
+
+  <defs>
+    <clipPath id="interior">
+      <rect x="166" y="24" width="508" height="44"/>
+    </clipPath>
+    <pattern id="scanlines" width="4" height="4" patternUnits="userSpaceOnUse">
+      <rect y="3" width="4" height="1" fill="#000000" opacity="0.3"/>
+    </pattern>
+  </defs>
+
+  <!-- Chispas a los lados -->
+  <g class="chispa" transform="translate(48 40) scale(3)"><path d="M3 0h1v3h3v1H4v3H3V4H0V3h3z" fill="#7df9ff"/></g>
+  <g class="chispa c2" transform="translate(771 40) scale(3)"><path d="M3 0h1v3h3v1H4v3H3V4H0V3h3z" fill="#ffe066"/></g>
+
+  <g class="cinta">
+    <!-- Colas con corte en V (van por detrás de la barra) -->
+    <polygon points="100,34 180,34 180,86 100,86 122,60" fill="#a12a6e"/>
+    <polygon points="660,34 740,34 718,60 740,86 660,86" fill="#a12a6e"/>
+
+    <!-- Pliegue: el trozo de cola que asoma bajo la barra, más oscuro -->
+    <rect x="160" y="74" width="20" height="12" fill="#4a0f30"/>
+    <rect x="660" y="74" width="20" height="12" fill="#4a0f30"/>
+
+    <!-- Barra principal: borde rosa e interior oscuro -->
+    <rect x="160" y="18" width="520" height="56" fill="#ff4fa3"/>
+    <rect x="166" y="24" width="508" height="44" fill="#0b0a24"/>
+    <rect x="166" y="24" width="508" height="3" fill="#ffffff" opacity="0.12"/>
+
+    <!-- Nivel a la izquierda, estrella a la derecha -->
+    <text class="pixel" x="186" y="52" font-size="10" fill="#7df9ff">{{NIVEL}}</text>
+    <g transform="translate(640 39) scale(2)"><path d="M3 0h1v2h1v1h2v1H6v1h1v2H6V6H5v1H2V6H1v1H0V5h1V4H0V3h2V2h1z" fill="#ffe066"/></g>
+
+    <!-- Título con sombra rosa -->
+    <text class="pixel" x="423" y="61" font-size="22" fill="#ff4fa3" text-anchor="middle">{{TITULO}}</text>
+    <text class="pixel" x="420" y="58" font-size="22" fill="#ffe066" text-anchor="middle">{{TITULO}}</text>
+
+    <rect x="166" y="24" width="508" height="44" fill="url(#scanlines)" clip-path="url(#interior)"/>
+  </g>
+</svg>
