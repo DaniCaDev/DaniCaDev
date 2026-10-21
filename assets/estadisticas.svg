@@ -411,9 +411,10 @@
 <rect x="764" y="304" width="11" height="11" fill="#1c1a44"/>
 <rect x="778" y="220" width="11" height="11" fill="#1c1a44"/>
 <rect x="778" y="234" width="11" height="11" fill="#1c1a44"/>
-<rect class="hoy" x="778" y="248" width="11" height="11" fill="#3b2a7a"/>  un cuadrado por día del último año
+<rect x="778" y="248" width="11" height="11" fill="#3b2a7a"/>
+<rect class="hoy" x="778" y="262" width="11" height="11" fill="#1c1a44"/>  un cuadrado por día del último año
       <text class="pixel" x="699" y="345" font-size="8" fill="#8f8bd6" text-anchor="end">MENOS</text><rect x="705" y="336" width="11" height="11" fill="#1c1a44"/><rect x="719" y="336" width="11" height="11" fill="#3b2a7a"/><rect x="733" y="336" width="11" height="11" fill="#7a2f8f"/><rect x="747" y="336" width="11" height="11" fill="#d63f9c"/><rect x="761" y="336" width="11" height="11" fill="#ffe066"/><text class="pixel" x="780" y="345" font-size="8" fill="#8f8bd6">MAS</text>     escala de colores
-      <text class="pixel" x="36" y="345" font-size="8" fill="#8f8bd6">ACTUALIZADO 20/10/2026</text>         fecha de actualización o aviso de datos de ejemplo
+      <text class="pixel" x="36" y="345" font-size="8" fill="#8f8bd6">ACTUALIZADO 21/10/2026</text>         fecha de actualización o aviso de datos de ejemplo
   -->
 
   <style>
@@ -871,11 +872,12 @@
 <rect x="764" y="304" width="11" height="11" fill="#1c1a44"/>
 <rect x="778" y="220" width="11" height="11" fill="#1c1a44"/>
 <rect x="778" y="234" width="11" height="11" fill="#1c1a44"/>
-<rect class="hoy" x="778" y="248" width="11" height="11" fill="#3b2a7a"/>
+<rect x="778" y="248" width="11" height="11" fill="#3b2a7a"/>
+<rect class="hoy" x="778" y="262" width="11" height="11" fill="#1c1a44"/>
     </g>
 
 <text class="pixel" x="699" y="345" font-size="8" fill="#8f8bd6" text-anchor="end">MENOS</text><rect x="705" y="336" width="11" height="11" fill="#1c1a44"/><rect x="719" y="336" width="11" height="11" fill="#3b2a7a"/><rect x="733" y="336" width="11" height="11" fill="#7a2f8f"/><rect x="747" y="336" width="11" height="11" fill="#d63f9c"/><rect x="761" y="336" width="11" height="11" fill="#ffe066"/><text class="pixel" x="780" y="345" font-size="8" fill="#8f8bd6">MAS</text>
-<text class="pixel" x="36" y="345" font-size="8" fill="#8f8bd6">ACTUALIZADO 20/10/2026</text>
+<text class="pixel" x="36" y="345" font-size="8" fill="#8f8bd6">ACTUALIZADO 21/10/2026</text>
 
     <rect x="0" y="0" width="840" height="375" fill="url(#scanlines)"/>
   </g>
