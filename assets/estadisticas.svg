@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="840" height="375" viewBox="0 0 840 375" role="img" aria-labelledby="t">
-  <title id="t">454 contribuciones en el último año. Racha actual: 1 días. Mejor racha: 9 días.</title>
+  <title id="t">473 contribuciones en el último año. Racha actual: 2 días. Mejor racha: 9 días.</title>
 
   <!--
     Plantilla del panel de estadísticas ("PARTIDA GUARDADA").
@@ -9,15 +9,15 @@
       <rect x="1.5" y="1.5" width="177" height="77" fill="#14123a" stroke="#ffe066" stroke-width="3"/>
       <g transform="translate(143 14) scale(3)"><path d="M1 0h5v1h1v5H6v1H1V6H0V1h1z" fill="#ffe066"/></g>
       <text class="pixel" x="16" y="30" font-size="8" fill="#8f8bd6">CONTRIBUCIONES</text>
-      <text class="pixel" x="16" y="64" font-size="22" fill="#ffe066">454</text>
+      <text class="pixel" x="16" y="64" font-size="22" fill="#ffe066">473</text>
       
     </g>
     <g transform="translate(232 98)">
       <rect x="1.5" y="1.5" width="177" height="77" fill="#14123a" stroke="#ff4fa3" stroke-width="3"/>
       <g transform="translate(143 14) scale(3)"><path d="M3 0h1v1h1v1h1v2h1v3H6v1H1V7H0V4h1V3h1V1h1z" fill="#ff4fa3"/></g>
       <text class="pixel" x="16" y="30" font-size="8" fill="#8f8bd6">RACHA ACTUAL</text>
-      <text class="pixel" x="16" y="64" font-size="22" fill="#ff4fa3">1</text>
-      <text class="pixel" x="46" y="64" font-size="9" fill="#ff4fa3">DIA</text>
+      <text class="pixel" x="16" y="64" font-size="22" fill="#ff4fa3">2</text>
+      <text class="pixel" x="46" y="64" font-size="9" fill="#ff4fa3">DIAS</text>
     </g>
     <g transform="translate(428 98)">
       <rect x="1.5" y="1.5" width="177" height="77" fill="#14123a" stroke="#7df9ff" stroke-width="3"/>
@@ -250,7 +250,7 @@
 <rect x="442" y="304" width="11" height="11" fill="#3b2a7a"/>
 <rect x="456" y="220" width="11" height="11" fill="#7a2f8f"/>
 <rect x="456" y="234" width="11" height="11" fill="#1c1a44"/>
-<rect x="456" y="248" width="11" height="11" fill="#7a2f8f"/>
+<rect x="456" y="248" width="11" height="11" fill="#3b2a7a"/>
 <rect x="456" y="262" width="11" height="11" fill="#1c1a44"/>
 <rect x="456" y="276" width="11" height="11" fill="#1c1a44"/>
 <rect x="456" y="290" width="11" height="11" fill="#1c1a44"/>
@@ -328,9 +328,9 @@
 <rect x="610" y="220" width="11" height="11" fill="#1c1a44"/>
 <rect x="610" y="234" width="11" height="11" fill="#7a2f8f"/>
 <rect x="610" y="248" width="11" height="11" fill="#3b2a7a"/>
-<rect x="610" y="262" width="11" height="11" fill="#d63f9c"/>
+<rect x="610" y="262" width="11" height="11" fill="#7a2f8f"/>
 <rect x="610" y="276" width="11" height="11" fill="#1c1a44"/>
-<rect x="610" y="290" width="11" height="11" fill="#d63f9c"/>
+<rect x="610" y="290" width="11" height="11" fill="#7a2f8f"/>
 <rect x="610" y="304" width="11" height="11" fill="#1c1a44"/>
 <rect x="624" y="220" width="11" height="11" fill="#1c1a44"/>
 <rect x="624" y="234" width="11" height="11" fill="#7a2f8f"/>
@@ -377,21 +377,21 @@
 <rect x="708" y="220" width="11" height="11" fill="#1c1a44"/>
 <rect x="708" y="234" width="11" height="11" fill="#1c1a44"/>
 <rect x="708" y="248" width="11" height="11" fill="#1c1a44"/>
-<rect x="708" y="262" width="11" height="11" fill="#d63f9c"/>
+<rect x="708" y="262" width="11" height="11" fill="#7a2f8f"/>
 <rect x="708" y="276" width="11" height="11" fill="#1c1a44"/>
 <rect x="708" y="290" width="11" height="11" fill="#1c1a44"/>
 <rect x="708" y="304" width="11" height="11" fill="#3b2a7a"/>
 <rect x="722" y="220" width="11" height="11" fill="#d63f9c"/>
 <rect x="722" y="234" width="11" height="11" fill="#1c1a44"/>
 <rect x="722" y="248" width="11" height="11" fill="#3b2a7a"/>
-<rect x="722" y="262" width="11" height="11" fill="#7a2f8f"/>
+<rect x="722" y="262" width="11" height="11" fill="#3b2a7a"/>
 <rect x="722" y="276" width="11" height="11" fill="#1c1a44"/>
 <rect x="722" y="290" width="11" height="11" fill="#3b2a7a"/>
 <rect x="722" y="304" width="11" height="11" fill="#3b2a7a"/>
 <rect x="736" y="220" width="11" height="11" fill="#7a2f8f"/>
-<rect x="736" y="234" width="11" height="11" fill="#7a2f8f"/>
+<rect x="736" y="234" width="11" height="11" fill="#3b2a7a"/>
 <rect x="736" y="248" width="11" height="11" fill="#d63f9c"/>
-<rect x="736" y="262" width="11" height="11" fill="#d63f9c"/>
+<rect x="736" y="262" width="11" height="11" fill="#7a2f8f"/>
 <rect x="736" y="276" width="11" height="11" fill="#3b2a7a"/>
 <rect x="736" y="290" width="11" height="11" fill="#3b2a7a"/>
 <rect x="736" y="304" width="11" height="11" fill="#3b2a7a"/>
@@ -411,10 +411,11 @@
 <rect x="764" y="304" width="11" height="11" fill="#1c1a44"/>
 <rect x="778" y="220" width="11" height="11" fill="#1c1a44"/>
 <rect x="778" y="234" width="11" height="11" fill="#1c1a44"/>
-<rect x="778" y="248" width="11" height="11" fill="#3b2a7a"/>
-<rect class="hoy" x="778" y="262" width="11" height="11" fill="#1c1a44"/>  un cuadrado por día del último año
+<rect x="778" y="248" width="11" height="11" fill="#ffe066"/>
+<rect x="778" y="262" width="11" height="11" fill="#3b2a7a"/>
+<rect class="hoy" x="778" y="276" width="11" height="11" fill="#1c1a44"/>  un cuadrado por día del último año
       <text class="pixel" x="699" y="345" font-size="8" fill="#8f8bd6" text-anchor="end">MENOS</text><rect x="705" y="336" width="11" height="11" fill="#1c1a44"/><rect x="719" y="336" width="11" height="11" fill="#3b2a7a"/><rect x="733" y="336" width="11" height="11" fill="#7a2f8f"/><rect x="747" y="336" width="11" height="11" fill="#d63f9c"/><rect x="761" y="336" width="11" height="11" fill="#ffe066"/><text class="pixel" x="780" y="345" font-size="8" fill="#8f8bd6">MAS</text>     escala de colores
-      <text class="pixel" x="36" y="345" font-size="8" fill="#8f8bd6">ACTUALIZADO 21/10/2026</text>         fecha de actualización o aviso de datos de ejemplo
+      <text class="pixel" x="36" y="345" font-size="8" fill="#8f8bd6">ACTUALIZADO 22/10/2026</text>         fecha de actualización o aviso de datos de ejemplo
   -->
 
   <style>
@@ -467,15 +468,15 @@
       <rect x="1.5" y="1.5" width="177" height="77" fill="#14123a" stroke="#ffe066" stroke-width="3"/>
       <g transform="translate(143 14) scale(3)"><path d="M1 0h5v1h1v5H6v1H1V6H0V1h1z" fill="#ffe066"/></g>
       <text class="pixel" x="16" y="30" font-size="8" fill="#8f8bd6">CONTRIBUCIONES</text>
-      <text class="pixel" x="16" y="64" font-size="22" fill="#ffe066">454</text>
+      <text class="pixel" x="16" y="64" font-size="22" fill="#ffe066">473</text>
       
     </g>
     <g transform="translate(232 98)">
       <rect x="1.5" y="1.5" width="177" height="77" fill="#14123a" stroke="#ff4fa3" stroke-width="3"/>
       <g transform="translate(143 14) scale(3)"><path d="M3 0h1v1h1v1h1v2h1v3H6v1H1V7H0V4h1V3h1V1h1z" fill="#ff4fa3"/></g>
       <text class="pixel" x="16" y="30" font-size="8" fill="#8f8bd6">RACHA ACTUAL</text>
-      <text class="pixel" x="16" y="64" font-size="22" fill="#ff4fa3">1</text>
-      <text class="pixel" x="46" y="64" font-size="9" fill="#ff4fa3">DIA</text>
+      <text class="pixel" x="16" y="64" font-size="22" fill="#ff4fa3">2</text>
+      <text class="pixel" x="46" y="64" font-size="9" fill="#ff4fa3">DIAS</text>
     </g>
     <g transform="translate(428 98)">
       <rect x="1.5" y="1.5" width="177" height="77" fill="#14123a" stroke="#7df9ff" stroke-width="3"/>
@@ -711,7 +712,7 @@
 <rect x="442" y="304" width="11" height="11" fill="#3b2a7a"/>
 <rect x="456" y="220" width="11" height="11" fill="#7a2f8f"/>
 <rect x="456" y="234" width="11" height="11" fill="#1c1a44"/>
-<rect x="456" y="248" width="11" height="11" fill="#7a2f8f"/>
+<rect x="456" y="248" width="11" height="11" fill="#3b2a7a"/>
 <rect x="456" y="262" width="11" height="11" fill="#1c1a44"/>
 <rect x="456" y="276" width="11" height="11" fill="#1c1a44"/>
 <rect x="456" y="290" width="11" height="11" fill="#1c1a44"/>
@@ -789,9 +790,9 @@
 <rect x="610" y="220" width="11" height="11" fill="#1c1a44"/>
 <rect x="610" y="234" width="11" height="11" fill="#7a2f8f"/>
 <rect x="610" y="248" width="11" height="11" fill="#3b2a7a"/>
-<rect x="610" y="262" width="11" height="11" fill="#d63f9c"/>
+<rect x="610" y="262" width="11" height="11" fill="#7a2f8f"/>
 <rect x="610" y="276" width="11" height="11" fill="#1c1a44"/>
-<rect x="610" y="290" width="11" height="11" fill="#d63f9c"/>
+<rect x="610" y="290" width="11" height="11" fill="#7a2f8f"/>
 <rect x="610" y="304" width="11" height="11" fill="#1c1a44"/>
 <rect x="624" y="220" width="11" height="11" fill="#1c1a44"/>
 <rect x="624" y="234" width="11" height="11" fill="#7a2f8f"/>
@@ -838,21 +839,21 @@
 <rect x="708" y="220" width="11" height="11" fill="#1c1a44"/>
 <rect x="708" y="234" width="11" height="11" fill="#1c1a44"/>
 <rect x="708" y="248" width="11" height="11" fill="#1c1a44"/>
-<rect x="708" y="262" width="11" height="11" fill="#d63f9c"/>
+<rect x="708" y="262" width="11" height="11" fill="#7a2f8f"/>
 <rect x="708" y="276" width="11" height="11" fill="#1c1a44"/>
 <rect x="708" y="290" width="11" height="11" fill="#1c1a44"/>
 <rect x="708" y="304" width="11" height="11" fill="#3b2a7a"/>
 <rect x="722" y="220" width="11" height="11" fill="#d63f9c"/>
 <rect x="722" y="234" width="11" height="11" fill="#1c1a44"/>
 <rect x="722" y="248" width="11" height="11" fill="#3b2a7a"/>
-<rect x="722" y="262" width="11" height="11" fill="#7a2f8f"/>
+<rect x="722" y="262" width="11" height="11" fill="#3b2a7a"/>
 <rect x="722" y="276" width="11" height="11" fill="#1c1a44"/>
 <rect x="722" y="290" width="11" height="11" fill="#3b2a7a"/>
 <rect x="722" y="304" width="11" height="11" fill="#3b2a7a"/>
 <rect x="736" y="220" width="11" height="11" fill="#7a2f8f"/>
-<rect x="736" y="234" width="11" height="11" fill="#7a2f8f"/>
+<rect x="736" y="234" width="11" height="11" fill="#3b2a7a"/>
 <rect x="736" y="248" width="11" height="11" fill="#d63f9c"/>
-<rect x="736" y="262" width="11" height="11" fill="#d63f9c"/>
+<rect x="736" y="262" width="11" height="11" fill="#7a2f8f"/>
 <rect x="736" y="276" width="11" height="11" fill="#3b2a7a"/>
 <rect x="736" y="290" width="11" height="11" fill="#3b2a7a"/>
 <rect x="736" y="304" width="11" height="11" fill="#3b2a7a"/>
@@ -872,12 +873,13 @@
 <rect x="764" y="304" width="11" height="11" fill="#1c1a44"/>
 <rect x="778" y="220" width="11" height="11" fill="#1c1a44"/>
 <rect x="778" y="234" width="11" height="11" fill="#1c1a44"/>
-<rect x="778" y="248" width="11" height="11" fill="#3b2a7a"/>
-<rect class="hoy" x="778" y="262" width="11" height="11" fill="#1c1a44"/>
+<rect x="778" y="248" width="11" height="11" fill="#ffe066"/>
+<rect x="778" y="262" width="11" height="11" fill="#3b2a7a"/>
+<rect class="hoy" x="778" y="276" width="11" height="11" fill="#1c1a44"/>
     </g>
 
 <text class="pixel" x="699" y="345" font-size="8" fill="#8f8bd6" text-anchor="end">MENOS</text><rect x="705" y="336" width="11" height="11" fill="#1c1a44"/><rect x="719" y="336" width="11" height="11" fill="#3b2a7a"/><rect x="733" y="336" width="11" height="11" fill="#7a2f8f"/><rect x="747" y="336" width="11" height="11" fill="#d63f9c"/><rect x="761" y="336" width="11" height="11" fill="#ffe066"/><text class="pixel" x="780" y="345" font-size="8" fill="#8f8bd6">MAS</text>
-<text class="pixel" x="36" y="345" font-size="8" fill="#8f8bd6">ACTUALIZADO 21/10/2026</text>
+<text class="pixel" x="36" y="345" font-size="8" fill="#8f8bd6">ACTUALIZADO 22/10/2026</text>
 
     <rect x="0" y="0" width="840" height="375" fill="url(#scanlines)"/>
   </g>
