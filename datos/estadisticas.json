@@ -1,6 +1,6 @@
 {
  "usuario": "DaniCaDev",
- "actualizado": "2026-10-24",
+ "actualizado": "2026-10-25",
  "demo": false,
  "total": 473,
  "commits": 20,
@@ -9,15 +9,8 @@
  "estrellas": 3,
  "racha_actual": 0,
  "mejor_racha": 9,
- "inicio": "2025-10-19",
+ "inicio": "2025-10-26",
  "niveles": [
-  1,
-  1,
-  0,
-  0,
-  0,
-  0,
-  0,
   0,
   0,
   0,
@@ -379,6 +372,7 @@
   0,
   4,
   1,
+  0,
   0,
   0,
   0
