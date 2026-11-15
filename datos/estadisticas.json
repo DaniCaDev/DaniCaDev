@@ -1,15 +1,15 @@
 {
  "usuario": "DaniCaDev",
- "actualizado": "2026-11-14",
+ "actualizado": "2026-11-15",
  "demo": false,
  "total": 547,
  "commits": 33,
  "prs": 0,
  "repos": 12,
  "estrellas": 3,
- "racha_actual": 1,
+ "racha_actual": 0,
  "mejor_racha": 9,
- "inicio": "2025-11-09",
+ "inicio": "2025-11-16",
  "niveles": [
   0,
   0,
@@ -90,13 +90,6 @@
   0,
   0,
   0,
-  0,
-  0,
-  0,
-  0,
-  0,
-  0,
-  0,
   1,
   1,
   0,
@@ -381,6 +374,7 @@
   1,
   0,
   2,
+  0,
   0
  ]
 }
